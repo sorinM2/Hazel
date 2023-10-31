@@ -8,4 +8,4 @@ namespace Hazel
 void main(int argc, char** argv)
 {
 	Hazel::Print();
-}//ba ej nebun
+}
