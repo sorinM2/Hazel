@@ -1,3 +1,5 @@
+#include <hzpch.h>
+
 #include "Application.h"	
 #include "events/Event.h"
 #include "events/KeyEvent.h"
@@ -5,7 +7,6 @@
 #include "events/ApplicationEvent.h"
 
 #include "Hazel/Log.h"
-#include <iostream>
 namespace Hazel
 {
 	Application::Application()

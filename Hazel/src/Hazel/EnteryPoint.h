@@ -1,6 +1,7 @@
 #pragma once
+#include <hzpch.h>
+
 #include <Hazel.h>
-#include <iostream>
 #ifdef HZ_PLATFORM_WINDOWS
 
 extern Hazel::Application* Hazel::CreateApplication();

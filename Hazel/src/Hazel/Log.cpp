@@ -1,5 +1,6 @@
+#include <hzpch.h>
+
 #include "Log.h"
-#include <iostream>
 namespace Hazel
 {
 	std::shared_ptr<spdlog::logger> Log::s_CoreLogger;
