@@ -43,7 +43,7 @@ namespace Hazel
 
 		inline bool IsInCateogry(int category)
 		{
-			return GetCategoryFlags() == category;
+			return ( GetCategoryFlags() & category == category);
 		}
 
 

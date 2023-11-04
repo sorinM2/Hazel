@@ -1,2 +1,2 @@
-call git submodule update --init --recursive
+call git submodule update --remote
 PAUSE

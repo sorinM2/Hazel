@@ -23,3 +23,5 @@
 #include <utility>
 #include <chrono>
 #include <algorithm>
+
+#include "Hazel/Log.h"
