@@ -46,7 +46,7 @@ namespace Hazel
 			return ( GetCategoryFlags() & category == category);
 		}
 
-
+		bool Handled() const { return m_Handled; }
 	protected:
 		bool m_Handled = false;
 	};
@@ -73,7 +73,7 @@ namespace Hazel
 		Event& m_Event;
 	};
 
-	inline std::ostream& operator<<(std::ostream& os, const Event& e)
+	inline HAZEL_API std::ostream& operator<<(std::ostream& os, const Event& e)
 	{
 		return os << e.ToString();
 	}
